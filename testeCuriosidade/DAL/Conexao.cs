@@ -1,7 +1,13 @@
 ﻿namespace DAL
 {
-    public class Class1
+    public static class Conexao
     {
-
+        public static string StringDeConexao
+        {
+            get
+            {
+                return @"User ID=SA;Initial Catalog=Teste2;Data Source=.\SQLEXPRESS2019;Password=Senailab02";
+            }
+        }
     }
 }
